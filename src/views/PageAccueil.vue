@@ -78,4 +78,12 @@ export default {
   padding: 10px;
   font-size: 1rem;
 }
+
+/* Pour les écrans >= 480px */
+@media only screen and (min-width: 480px) {
+  /*Passage sur 3 cols*/
+  .realisations li {
+    width: calc(100%/3 - 5%);
+  }
+} /* min-width: 480px */
 </style>

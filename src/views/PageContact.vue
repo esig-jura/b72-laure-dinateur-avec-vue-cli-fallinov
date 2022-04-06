@@ -77,4 +77,19 @@ export default {
 .contact-info li a[href*="facebook"] {
   background-image: url('/img/facebook.png');
 }
+
+@media only screen and (min-width: 480px) {
+  .col1,
+  .col2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+
+  }
+
+  .col2 {
+    width: 40%;
+    margin-left: 10%;
+  }
+} /* min-width: 480px */
 </style>

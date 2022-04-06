@@ -27,5 +27,7 @@ export default {
 </script>
 
 <style scoped>
-
+nav li .router-link-exact-active {
+  color: #2ec4b6;
+}
 </style>
