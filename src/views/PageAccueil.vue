@@ -6,11 +6,12 @@
 
     <ul class="realisations">
       <realisation
-        v-for="reali in realisations"
+        v-for="(reali, index) in realisations"
         :key="reali.image"
         :image="reali.image"
         :titre="reali.titre"
         :description="reali.description"
+        @supprimer="realisations.splice(index,1)"
       ></realisation>
     </ul>
   </main>
@@ -52,6 +53,9 @@ export default {
         },
       ],
     };
+  },
+  mounted() {
+    document.title = 'Laure Dinateur | Gaphiste';
   },
 };
 </script>

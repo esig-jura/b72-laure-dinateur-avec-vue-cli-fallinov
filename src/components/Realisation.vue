@@ -6,6 +6,7 @@
         <figcaption>{{ description }}</figcaption>
       </figure>
     </a>
+    <button @click="$emit('supprimer')">Supprimer</button>
   </li>
 </template>
 

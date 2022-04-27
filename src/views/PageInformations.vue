@@ -27,6 +27,9 @@
 <script>
 export default {
   name: 'PageInformations.vue',
+  mounted() {
+    document.title = 'Laure Dinateur | Informations';
+  },
 };
 </script>
 

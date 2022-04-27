@@ -40,6 +40,9 @@
 <script>
 export default {
   name: 'PageContact.vue',
+  mounted() {
+    document.title = 'Laure Dinateur | Me contacter';
+  },
 };
 </script>
 
